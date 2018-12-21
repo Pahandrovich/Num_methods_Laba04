@@ -12,7 +12,7 @@ namespace NumMetLaba04 {
 	using namespace ZedGraph;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,38 +21,38 @@ namespace NumMetLaba04 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 
 			GraphPane^ pane1 = zedGraphControl1->GraphPane;
-			pane1->XAxis->Title->Text = "Ось x";
-			pane1->YAxis->Title->Text = "Ось u,v";
-			pane1->Title->Text = "график точного и численного решения";
+			pane1->XAxis->Title->Text = "ГЋГ±Гј x";
+			pane1->YAxis->Title->Text = "ГЋГ±Гј u,v";
+			pane1->Title->Text = "ГЈГ°Г ГґГЁГЄ ГІГ®Г·Г­Г®ГЈГ® ГЁ Г·ГЁГ±Г«ГҐГ­Г­Г®ГЈГ® Г°ГҐГёГҐГ­ГЁГї";
 
 			GraphPane^ pane2 = zedGraphControl2->GraphPane;
-			pane2->XAxis->Title->Text = "Ось x";
-			pane2->YAxis->Title->Text = "Ось u,v";
-			pane2->Title->Text = "график точного и численного решения";
+			pane2->XAxis->Title->Text = "ГЋГ±Гј x";
+			pane2->YAxis->Title->Text = "ГЋГ±Гј u,v";
+			pane2->Title->Text = "ГЈГ°Г ГґГЁГЄ ГІГ®Г·Г­Г®ГЈГ® ГЁ Г·ГЁГ±Г«ГҐГ­Г­Г®ГЈГ® Г°ГҐГёГҐГ­ГЁГї";
 
 			GraphPane^ pane3 = zedGraphControl3->GraphPane;
-			pane3->XAxis->Title->Text = "Ось x";
-			pane3->YAxis->Title->Text = "Ось v, v2";
-			pane3->Title->Text = "график численного и более точного численного решения";
+			pane3->XAxis->Title->Text = "ГЋГ±Гј x";
+			pane3->YAxis->Title->Text = "ГЋГ±Гј v, v2";
+			pane3->Title->Text = "ГЈГ°Г ГґГЁГЄ Г·ГЁГ±Г«ГҐГ­Г­Г®ГЈГ® ГЁ ГЎГ®Г«ГҐГҐ ГІГ®Г·Г­Г®ГЈГ® Г·ГЁГ±Г«ГҐГ­Г­Г®ГЈГ® Г°ГҐГёГҐГ­ГЁГї";
 
 			GraphPane^ pane4 = zedGraphControl4->GraphPane;
-			pane4->XAxis->Title->Text = "Ось x";
-			pane4->YAxis->Title->Text = "погрешность";
-			pane4->Title->Text = "погрешность от Х";
+			pane4->XAxis->Title->Text = "ГЋГ±Гј x";
+			pane4->YAxis->Title->Text = "ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГј";
+			pane4->Title->Text = "ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГј Г®ГІ Г•";
 
 			GraphPane^ pane5 = zedGraphControl5->GraphPane;
-			pane5->XAxis->Title->Text = "Ось x";
-			pane5->YAxis->Title->Text = "погрешность";
-			pane5->Title->Text = "погрешность от Х";
+			pane5->XAxis->Title->Text = "ГЋГ±Гј x";
+			pane5->YAxis->Title->Text = "ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГј";
+			pane5->Title->Text = "ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГј Г®ГІ Г•";
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -115,14 +115,14 @@ namespace NumMetLaba04 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -444,7 +444,7 @@ namespace NumMetLaba04 {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(187, 51);
 			this->label7->TabIndex = 13;
-			this->label7->Text = L"Максимальное отклонение\r\n\r\n достигается в точке:";
+			this->label7->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г®ГІГЄГ«Г®Г­ГҐГ­ГЁГҐ\r\n\r\n Г¤Г®Г±ГІГЁГЈГ ГҐГІГ±Гї Гў ГІГ®Г·ГЄГҐ:";
 			// 
 			// tabPage3
 			// 
@@ -591,8 +591,8 @@ namespace NumMetLaba04 {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(248, 102);
 			this->label9->TabIndex = 13;
-			this->label9->Text = L"При пересчете значений\r\n с половинным шагом\r\n максимальная разность\r\n приближенны"
-				L"х решений составила:\r\n\r\nи соответствует узлу:";
+			this->label9->Text = L"ГЏГ°ГЁ ГЇГҐГ°ГҐГ±Г·ГҐГІГҐ Г§Г­Г Г·ГҐГ­ГЁГ©\r\n Г± ГЇГ®Г«Г®ГўГЁГ­Г­Г»Г¬ ГёГ ГЈГ®Г¬\r\n Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї Г°Г Г§Г­Г®Г±ГІГј\r\n ГЇГ°ГЁГЎГ«ГЁГ¦ГҐГ­Г­Г»"
+				L"Гµ Г°ГҐГёГҐГ­ГЁГ© Г±Г®Г±ГІГ ГўГЁГ«Г :\r\n\r\nГЁ Г±Г®Г®ГІГўГҐГІГ±ГІГўГіГҐГІ ГіГ§Г«Гі:";
 			// 
 			// MyForm
 			// 
@@ -664,7 +664,7 @@ namespace NumMetLaba04 {
 			else if (x - h / 2.0 >= ksi)
 				return 2.0 * x;
 			else
-				return ((ksi - (x - h / 2.0)) * ((x+h/2-ksi) * (x+h/2-ksi)/4 + 1.0) + (x + h / 2.0 - ksi) * (2.0 * (x + h / 2 + ksi)/2)) / h;
+				return ((ksi - (x - h / 2.0)) * ((x-h/2+ksi) * (x-h/2+ksi)/4 + 1.0) + (x + h / 2.0 - ksi) * (2.0 * (x + h / 2 + ksi)/2)) / h;
 		}
 
 		double func_f_mt(double x, double ksi, double h) // f, main task
